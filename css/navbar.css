@@ -1,0 +1,11 @@
+#nav-bar{
+  position: absolute;
+  bottom: 0;
+  width: 400px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: white;
+  border-radius: 15px;
+}

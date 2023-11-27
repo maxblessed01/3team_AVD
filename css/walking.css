@@ -1,0 +1,62 @@
+#super-div{
+  position: relative;
+  display: flex;
+  width: 400px;
+  height: 700px;
+  border: 1px solid black;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #FAFAFA;
+}
+
+#logo{
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 20px; 
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#my-loc{
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 35px;
+  font-size: 15px;
+  color: gray;
+}
+
+#time{
+  margin-top: 80px;
+  width: 350px;
+  height: 100px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+#dog-option{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  width: 350px;
+  height: 100px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.button-tag{
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  background-color: lightgray;
+  text-align: center;
+}
+
+
+.puple-color{
+  color: white;
+  background-color: #B4A3FF;
+}
